@@ -1,4 +1,4 @@
-#calculator built with typescript and styled components 
+# calculator built with typescript and styled components 
 
 # Getting Started with Create React App
 
