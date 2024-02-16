@@ -67,8 +67,8 @@ const Calculator = () => {
     };
 
     return (
-        <StyledCalcBody style={{ backgroundColor: isLightTheme ? 'white' : 'black', color: isLightTheme ? 'black' : 'white' }}>
-            <StyledDisplay style={{ color: isLightTheme ? 'black' : 'white' }}>{expression}</StyledDisplay>
+        <StyledCalcBody style={{ backgroundColor: isLightTheme ? 'black' : 'white', color: isLightTheme ? 'white' : 'black' }}>
+            <StyledDisplay style={{ color: isLightTheme ? 'white' : 'black' }}>{expression}</StyledDisplay>
 
             <StyledsingleLine>
                 <div style={{ backgroundColor: 'gray', color: 'black' }}>C</div>
